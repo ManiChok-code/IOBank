@@ -3,6 +3,10 @@ on: push
 jobs:
   my-job:
     runs-on: macos-13
-    steps:
+    steps1:
       - name: my-step
-        run: echo "Hello World Manick!"
+        run: echo "Hello World Manick1!"
+    steps2:
+      - name: my-step
+        run: echo "Hello World Manick2!"
+
