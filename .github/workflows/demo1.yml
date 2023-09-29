@@ -5,4 +5,4 @@ jobs:
     runs-on: macos-13
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        run: echo "Hello World Manick!"
